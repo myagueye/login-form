@@ -1,0 +1,166 @@
+*{
+    font-family: 'poppiins', sans serif;
+
+}
+body{
+    background-image: url("image/1.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                justify-content: center;
+                align-items: center;
+                background-position: center;
+                height: 100vh;
+                display: flex;
+                
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-color: #faf7f7;
+    
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+
+}
+span{
+    color: #0c0c0c;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+}
+header{
+    color: #0c0c0c;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+   
+
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input{
+    height: 42px;
+    width: 87%;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 30px;
+    color: #0a0a0a;
+    padding: 0 0 0 45px;
+    background: rgba(80, 76, 85, 0.1);
+ 
+
+
+}
+.i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #0a0a0a;
+
+}
+::-webkit-input-placeholder{
+    color: #0e0d0d;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(rgb 248, 235, 235);
+    cursor: pointer;
+    transition: .3s;
+   
+
+
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0,0.2);
+
+}
+/* .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+ */
+
+
+
+.left{
+    display: flex;
+
+}
+label a{
+    color: #080808;
+    text-decoration: none;
+
+}
+.social-media{
+ text-align: center;
+ 
+}
+/* .checkbox{
+    width: 65px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance:none ;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    text-align: center;
+} */
+.menu{
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    white-space: 10px;
+
+}
+.menuItemes > div {
+   padding: 25px,50px;
+   margin: 25px;
+
+}
+.menuItemes{
+    font-size: 1.8rem;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+   
+}
+.fa-facebook{
+    color:#273c75;
+    padding: 10px;
+}
+.fa-whatsapp{
+    color: rgb(9, 241, 40) ;
+    padding: 10px;
+
+}
+.fa-youtube{
+    color: red;
+    padding: 10px;
+    
+}
+
